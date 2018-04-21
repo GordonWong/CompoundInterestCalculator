@@ -54,7 +54,7 @@ namespace Calculator.Models
             }
         }
 
-        [Display(Name = "Time in years")]
+        [Display(Name = "Number of years")]
         public int Years {
             get { return _years; }
             set {
